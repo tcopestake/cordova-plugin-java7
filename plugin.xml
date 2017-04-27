@@ -13,7 +13,7 @@
     <license>MIT</license>
     <keywords>cordova, java 7</keywords>
     <platform name="android">
-        <source-file src="build-extras.gradle" target-dir="../android" />
+        <framework src="build-extras.gradle" custom="true" type="gradleReference" />
     </platform>
     <platform name="amazon-fireos">
         <source-file src="build-extras.gradle" target-dir="../amazon-fireos" />
